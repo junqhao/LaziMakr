@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6997F77725AECD3500DBFBC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997F77625AECD3500DBFBC2 /* AppDelegate.m */; };
+		6997F77A25AECD3500DBFBC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997F77925AECD3500DBFBC2 /* ViewController.m */; };
+		6997F77C25AECD3600DBFBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6997F77B25AECD3600DBFBC2 /* Assets.xcassets */; };
+		6997F77F25AECD3600DBFBC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6997F77D25AECD3600DBFBC2 /* Main.storyboard */; };
+		6997F78225AECD3600DBFBC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997F78125AECD3600DBFBC2 /* main.m */; };
+		6997F79125AECD7200DBFBC2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997F79025AECD7200DBFBC2 /* Cocoa.framework */; };
+		6997F79725AECD7300DBFBC2 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997F79625AECD7300DBFBC2 /* SourceEditorExtension.m */; };
+		6997F79A25AECD7300DBFBC2 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997F79925AECD7300DBFBC2 /* SourceEditorCommand.m */; };
+		6997F79F25AECD7300DBFBC2 /* LazyMaker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6997F78E25AECD7200DBFBC2 /* LazyMaker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6997F7A625AECD9B00DBFBC2 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997F79225AECD7200DBFBC2 /* XcodeKit.framework */; };
+		6997F7A725AECD9B00DBFBC2 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6997F79225AECD7200DBFBC2 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6997F79D25AECD7300DBFBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6997F76A25AECD3500DBFBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6997F78D25AECD7200DBFBC2;
+			remoteInfo = LazyMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6997F7A325AECD7300DBFBC2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6997F79F25AECD7300DBFBC2 /* LazyMaker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6997F7A825AECD9B00DBFBC2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6997F7A725AECD9B00DBFBC2 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6997F77225AECD3500DBFBC2 /* LaziMakr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaziMakr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6997F77525AECD3500DBFBC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6997F77625AECD3500DBFBC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6997F77825AECD3500DBFBC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6997F77925AECD3500DBFBC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6997F77B25AECD3600DBFBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6997F77E25AECD3600DBFBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6997F78025AECD3600DBFBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6997F78125AECD3600DBFBC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6997F78325AECD3600DBFBC2 /* LaziMakr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LaziMakr.entitlements; sourceTree = "<group>"; };
+		6997F78E25AECD7200DBFBC2 /* LazyMaker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LazyMaker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6997F79025AECD7200DBFBC2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6997F79225AECD7200DBFBC2 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		6997F79525AECD7300DBFBC2 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		6997F79625AECD7300DBFBC2 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		6997F79825AECD7300DBFBC2 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		6997F79925AECD7300DBFBC2 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		6997F79B25AECD7300DBFBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6997F79C25AECD7300DBFBC2 /* LazyMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LazyMaker.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6997F76F25AECD3500DBFBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6997F78B25AECD7200DBFBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6997F79125AECD7200DBFBC2 /* Cocoa.framework in Frameworks */,
+				6997F7A625AECD9B00DBFBC2 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6997F76925AECD3500DBFBC2 = {
+			isa = PBXGroup;
+			children = (
+				6997F77425AECD3500DBFBC2 /* LaziMakr */,
+				6997F79425AECD7300DBFBC2 /* LazyMaker */,
+				6997F78F25AECD7200DBFBC2 /* Frameworks */,
+				6997F77325AECD3500DBFBC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6997F77325AECD3500DBFBC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6997F77225AECD3500DBFBC2 /* LaziMakr.app */,
+				6997F78E25AECD7200DBFBC2 /* LazyMaker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6997F77425AECD3500DBFBC2 /* LaziMakr */ = {
+			isa = PBXGroup;
+			children = (
+				6997F77525AECD3500DBFBC2 /* AppDelegate.h */,
+				6997F77625AECD3500DBFBC2 /* AppDelegate.m */,
+				6997F77825AECD3500DBFBC2 /* ViewController.h */,
+				6997F77925AECD3500DBFBC2 /* ViewController.m */,
+				6997F77B25AECD3600DBFBC2 /* Assets.xcassets */,
+				6997F77D25AECD3600DBFBC2 /* Main.storyboard */,
+				6997F78025AECD3600DBFBC2 /* Info.plist */,
+				6997F78125AECD3600DBFBC2 /* main.m */,
+				6997F78325AECD3600DBFBC2 /* LaziMakr.entitlements */,
+			);
+			path = LaziMakr;
+			sourceTree = "<group>";
+		};
+		6997F78F25AECD7200DBFBC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6997F79025AECD7200DBFBC2 /* Cocoa.framework */,
+				6997F79225AECD7200DBFBC2 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6997F79425AECD7300DBFBC2 /* LazyMaker */ = {
+			isa = PBXGroup;
+			children = (
+				6997F79525AECD7300DBFBC2 /* SourceEditorExtension.h */,
+				6997F79625AECD7300DBFBC2 /* SourceEditorExtension.m */,
+				6997F79825AECD7300DBFBC2 /* SourceEditorCommand.h */,
+				6997F79925AECD7300DBFBC2 /* SourceEditorCommand.m */,
+				6997F79B25AECD7300DBFBC2 /* Info.plist */,
+				6997F79C25AECD7300DBFBC2 /* LazyMaker.entitlements */,
+			);
+			path = LazyMaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6997F77125AECD3500DBFBC2 /* LaziMakr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6997F78625AECD3600DBFBC2 /* Build configuration list for PBXNativeTarget "LaziMakr" */;
+			buildPhases = (
+				6997F76E25AECD3500DBFBC2 /* Sources */,
+				6997F76F25AECD3500DBFBC2 /* Frameworks */,
+				6997F77025AECD3500DBFBC2 /* Resources */,
+				6997F7A325AECD7300DBFBC2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6997F79E25AECD7300DBFBC2 /* PBXTargetDependency */,
+			);
+			name = LaziMakr;
+			productName = LaziMakr;
+			productReference = 6997F77225AECD3500DBFBC2 /* LaziMakr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6997F78D25AECD7200DBFBC2 /* LazyMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6997F7A025AECD7300DBFBC2 /* Build configuration list for PBXNativeTarget "LazyMaker" */;
+			buildPhases = (
+				6997F78A25AECD7200DBFBC2 /* Sources */,
+				6997F78B25AECD7200DBFBC2 /* Frameworks */,
+				6997F78C25AECD7200DBFBC2 /* Resources */,
+				6997F7A825AECD9B00DBFBC2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyMaker;
+			productName = LazyMaker;
+			productReference = 6997F78E25AECD7200DBFBC2 /* LazyMaker.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6997F76A25AECD3500DBFBC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6997F77125AECD3500DBFBC2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6997F78D25AECD7200DBFBC2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 6997F76D25AECD3500DBFBC2 /* Build configuration list for PBXProject "LaziMakr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6997F76925AECD3500DBFBC2;
+			productRefGroup = 6997F77325AECD3500DBFBC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6997F77125AECD3500DBFBC2 /* LaziMakr */,
+				6997F78D25AECD7200DBFBC2 /* LazyMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6997F77025AECD3500DBFBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6997F77C25AECD3600DBFBC2 /* Assets.xcassets in Resources */,
+				6997F77F25AECD3600DBFBC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6997F78C25AECD7200DBFBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6997F76E25AECD3500DBFBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6997F77A25AECD3500DBFBC2 /* ViewController.m in Sources */,
+				6997F78225AECD3600DBFBC2 /* main.m in Sources */,
+				6997F77725AECD3500DBFBC2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6997F78A25AECD7200DBFBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6997F79725AECD7300DBFBC2 /* SourceEditorExtension.m in Sources */,
+				6997F79A25AECD7300DBFBC2 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6997F79E25AECD7300DBFBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6997F78D25AECD7200DBFBC2 /* LazyMaker */;
+			targetProxy = 6997F79D25AECD7300DBFBC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6997F77D25AECD3600DBFBC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6997F77E25AECD3600DBFBC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6997F78425AECD3600DBFBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6997F78525AECD3600DBFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6997F78725AECD3600DBFBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LaziMakr/LaziMakr.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LaziMakr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junqhao.LaziMakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6997F78825AECD3600DBFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LaziMakr/LaziMakr.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LaziMakr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junqhao.LaziMakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6997F7A125AECD7300DBFBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazyMaker/LazyMaker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LazyMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junqhao.LaziMakr.LazyMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6997F7A225AECD7300DBFBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazyMaker/LazyMaker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LazyMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junqhao.LaziMakr.LazyMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6997F76D25AECD3500DBFBC2 /* Build configuration list for PBXProject "LaziMakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6997F78425AECD3600DBFBC2 /* Debug */,
+				6997F78525AECD3600DBFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6997F78625AECD3600DBFBC2 /* Build configuration list for PBXNativeTarget "LaziMakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6997F78725AECD3600DBFBC2 /* Debug */,
+				6997F78825AECD3600DBFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6997F7A025AECD7300DBFBC2 /* Build configuration list for PBXNativeTarget "LazyMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6997F7A125AECD7300DBFBC2 /* Debug */,
+				6997F7A225AECD7300DBFBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6997F76A25AECD3500DBFBC2 /* Project object */;
+}
