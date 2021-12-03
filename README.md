@@ -14,15 +14,18 @@ V1.0 支持 OC属性的 Getter / Setter方法代码生成，主要特性如下�
 
 # 使用方法
 ## 下载安装
-download代码后在zip中解压dmg或者自行在Xcode中进行编译找到dmg文件
+download代码后在zip中解压dmg或者自行在Xcode中进行编译找到dmg文件 
+
 ![Image text](https://github.com/junqhao/ImgSaver/blob/main/LaziMakr/lzmk_1.jpeg)
 
 ## 设置系统偏好 
 在系统偏好设置-扩展中 选择使用LazyMaker，建议重启Xcode以正常使用
+
 ![Image text](https://github.com/junqhao/ImgSaver/blob/main/LaziMakr/lzmk_2.jpeg)
 
 ## 设置快捷键 
 设置快捷操作（推荐 option + G/S/L）
+
 ![Image text](https://github.com/junqhao/ImgSaver/blob/main/LaziMakr/lzmk_3.jpeg)
 
 ## 禁用
