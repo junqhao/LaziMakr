@@ -1,6 +1,6 @@
 # LaziMakr
 LazyMaker 是一款 Xcode Source Editor Extension，其对编辑器的现有功能进行扩展，旨在简化开发流程，提升效率。
-A Xcode Extension which can automatically generate getter/setter codes.
+An Xcode Extension which can automatically generate getter/setter codes.
 
 ## 功能一览：
 V1.0 支持 OC属性的 Getter / Setter方法代码生成，主要特性如下。
